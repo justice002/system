@@ -17,6 +17,8 @@ const constantRouterMap = [
     component: () => import('/@/views/main.vue'),
     children: [
       { path: 'thing', name: 'thing', component: () => import('/@/views/thing.vue') },
+      { path: 'classification', name: 'classification', component: () => import('/@/views/classification.vue') },
+      { path: 'sysInfo', name: 'sysInfo', component: () => import('/@/views/sys-info.vue') },
     ]
   }
 ];
